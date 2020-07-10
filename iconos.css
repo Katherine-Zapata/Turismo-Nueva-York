@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --facebook: #2417d8;
+    --instagram: #e4405f;
+    --twitter: #55acee;
+    --pinterest: #e00404;
+    --linkedin: #0077b5;
+}
+
+.redes-container{
+  display: flex; 
+  height: 20vh; 
+  align-items: center;
+  justify-content: center;
+}
+
+.redes-container ul li{
+     display: inline-block;
+     margin: 0 5px;
+     width: 50px;
+     height: 50px;
+     text-align: center;
+}
+
+.redes-container ul li a{
+    display: block;
+    padding: 0 10px;
+    background: rgb(88, 85, 85);
+    color: #fff;
+    line-height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.redes-container ul:hover a{
+    filter: blur(2px);
+}
+
+.redes-container ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 0px rgba(0, 0 ,0, .4);
+    filter: none;
+}
+
+.redes-container ul li .facebook{
+    background: var(--facebook);
+}
+.redes-container ul li .instagram{
+    background: var(--instagram);
+}
+.redes-container ul li .twitter{
+    background: var(--twitter);
+}
+.redes-container ul li .pinterest{
+    background: var(--pinterest);
+}
+.redes-container ul li .linkedin{
+    background: var(--linkedin);
+}
+
+
